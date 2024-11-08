@@ -33,7 +33,7 @@ function App() {
   }
   // console.log(EXAMPLES[0]);
   return (
-    <div>
+    <Fragment>
       <Header/>
       <main>
         <h2>Time to get started!</h2>
@@ -72,7 +72,7 @@ function App() {
       </section>
       </main>
      
-    </div>
+    </Fragment>
   
   );
 }
