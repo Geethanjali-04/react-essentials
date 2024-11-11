@@ -41,7 +41,7 @@ export default function Examples(){
 
   return (<section id="examples">
     {/* setting resuable tabs */}
-    <Tabs buttons = {
+    <Tabs ButtonContainer = "menu" buttons = {
         <>
             <TabButton selected = {selectedBtnContent === "components"} onSelect = {()=>handleClick("components")}>components</TabButton>
             <TabButton selected = {selectedBtnContent === "jsx"} onSelect = {() =>handleClick("jsx")}>JSX</TabButton>
